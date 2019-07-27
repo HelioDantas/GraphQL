@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node serve"
+    "start": "node serve.js"
   },
   "keywords": [],
   "author": "helio dantas",
   "license": "ISC",
   "dependencies": {
-    "graphql-yoga": "^1.18.1"
+    "graphql-yoga": "^1.18.1",
+    "mongose": "0.0.2-security"
   },
   "devDependencies": {}
 }
