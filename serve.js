@@ -1,9 +1,9 @@
 const {GraphQLServer} = require('graphql-yoga');
 const path = require('path');
 const resolvers = require('./src/resolvers');
-const mongose = require('mongose');
+const mongose = require('mongoose');
 mongose.connect('mongodb://admin:123@localhost:27017/admin', {
-    useNewUrlParse: true
+    useNewUrlParser: true
 }, (error) => {
     if (!error) {
         return true;
