@@ -1,0 +1,17 @@
+{
+  "name": "graphql",
+  "version": "0.0.1",
+  "description": "api em graphql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node serve"
+  },
+  "keywords": [],
+  "author": "helio dantas",
+  "license": "ISC",
+  "dependencies": {
+    "graphql-yoga": "^1.18.1"
+  },
+  "devDependencies": {}
+}
