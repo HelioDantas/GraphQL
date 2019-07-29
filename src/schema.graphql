@@ -2,11 +2,18 @@ type User {
     id:ID!
     name:String!
     email:String!
+    todos(id:ID): [Todo!]!
+
+}
+type Todo {
+    id:ID!
+    content: String!
 }
 
 type Query {
     users: [User!]!
     user(id:ID): User
+    todos(_id: ID!): [Todo!]!
 }
 
 type Mutation {
